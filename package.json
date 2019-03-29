@@ -1,0 +1,11 @@
+{
+    "name": "express-playGround",
+    "version": "1.0.0",
+    "description": "Node js application to play with",
+    "main": "index.js",
+    "repository": "https://github.com/devnigam24/express-playGround.git",
+    "author": "Devvrat",
+    "license": "MIT",
+    "private": false
+  }
+  
