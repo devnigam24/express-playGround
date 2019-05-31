@@ -10,9 +10,14 @@
     "dependencies": {
         "@types/express": "^4.16.1",
         "express": "^4.16.4",
-        "typescript": "^3.4.1"
+        "typescript": "^3.4.1",
+        "ws": "^7.0.0"
     },
     "scripts": {
-        "start": "tsc -p . && node index"
+        "express": "tsc -p . && node express",
+        "websocket": "tsc -p . && node websocket"
+    },
+    "devDependencies": {
+        "@types/ws": "^6.0.1"
     }
 }

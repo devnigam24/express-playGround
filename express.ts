@@ -9,4 +9,4 @@ application.use(express.static('public'));
 
 application.get(Urls.ALL, RouteCallbacks.HomeUrlCallBack);
 
-application.listen(Config.port, RouteCallbacks.ListenCallback);
+application.listen(Config.ports.express, RouteCallbacks.ListenCallback);

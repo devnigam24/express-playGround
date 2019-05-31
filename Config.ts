@@ -1,3 +1,6 @@
 export default {
-  port: 3000
+  ports: {
+    express: 3333,
+    websocket: 4444
+  }
 }; 
